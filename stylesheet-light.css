@@ -1,0 +1,177 @@
+/* App Switcher */
+.switcher-list {
+  color: #353535;
+  background-color: #dcdcdc;
+}
+
+.switcher-list .item-box {
+  color: #353535;
+  background-color: #dcdcdc;
+  border-color: transparent;
+}
+
+.switcher-list .item-box:focus {
+  color: #353535;
+  background-color: rgba(220, 220, 220, 0.25);
+}
+
+.switcher-list .item-box:focus:hover {
+  background-color: #e2e2e2;
+}
+
+.switcher-list .item-box:hover {
+  color: #353535;
+  background-color: #e2e2e2;
+}
+
+.switcher-list .item-box:active {
+  color: #353535;
+  background-color: #e7e7e7;
+}
+
+.switcher-list .item-box:active:hover {
+  background-color: #efefef;
+}
+
+.switcher-list .item-box:active:focus {
+  background-color: #eaeaea;
+}
+
+.switcher-list .item-box:highlighted,
+.switcher-list .item-box:selected,
+.switcher-list .item-box:checked {
+  color: #353535;
+  background-color: #ebebeb;
+}
+
+.switcher-list .item-box:highlighted:hover,
+.switcher-list .item-box:selected:hover,
+.switcher-list .item-box:checked:hover {
+  background-color: #f2f2f2;
+}
+
+.switcher-list .item-box:highlighted:active,
+.switcher-list .item-box:selected:active,
+.switcher-list .item-box:checked:active {
+  background-color: #f4f4f4;
+}
+
+.switcher-list .item-box:insensitive {
+  color: rgba(53, 53, 53, 0.4);
+  background-color: #dcdcdc;
+}
+
+.switcher-list .item-box:drop {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.switcher-arrow {
+  color: rgba(53, 53, 53, 0.8);
+  border-color: rgba(53, 53, 53, 0.8);
+}
+
+.switcher-arrow:highlighted {
+  color: #353535;
+  border-color: #353535;
+}
+
+.cycler-highlight {
+  border-color: -st-accent-color;
+}
+
+/* Screenshot UI */
+.screenshot-ui-panel {
+  color: #353535;
+  background-color: #dcdcdc;
+  border-color: rgba(53, 53, 53, 0.02);
+}
+
+.screenshot-ui-show-pointer-button,
+.screenshot-ui-type-button {
+  color: #353535;
+  background-color: #dcdcdc;
+}
+
+.screenshot-ui-show-pointer-button:hover,
+.screenshot-ui-type-button:hover {
+  background-color: #e2e2e2;
+}
+
+.screenshot-ui-show-pointer-button:focus,
+.screenshot-ui-type-button:focus {
+  background-color: rgba(220, 220, 220, 0.25);
+}
+
+.screenshot-ui-show-pointer-button:active,
+.screenshot-ui-type-button:active {
+  background-color: #e7e7e7;
+}
+
+/* Base selected/highlighted/checked styles */
+.screenshot-ui-show-pointer-button:selected,
+.screenshot-ui-show-pointer-button:checked,
+.screenshot-ui-show-pointer-button:highlighted,
+.screenshot-ui-type-button:selected,
+.screenshot-ui-type-button:checked,
+.screenshot-ui-type-button:highlighted {
+  background-color: #ebebeb;
+  color: #353535;
+}
+
+/* Hovered while selected/highlighted/checked */
+.screenshot-ui-show-pointer-button:selected:hover,
+.screenshot-ui-show-pointer-button:checked:hover,
+.screenshot-ui-show-pointer-button:highlighted:hover,
+.screenshot-ui-type-button:selected:hover,
+.screenshot-ui-type-button:checked:hover,
+.screenshot-ui-type-button:highlighted:hover {
+  background-color: #f2f2f2;
+}
+
+/* Active press while selected/highlighted/checked */
+.screenshot-ui-show-pointer-button:selected:active,
+.screenshot-ui-show-pointer-button:checked:active,
+.screenshot-ui-show-pointer-button:highlighted:active,
+.screenshot-ui-type-button:selected:active,
+.screenshot-ui-type-button:checked:active,
+.screenshot-ui-type-button:highlighted:active {
+  background-color: #f4f4f4;
+}
+
+.screenshot-ui-shot-cast-container {
+  background-color: rgba(53, 53, 53, 0.1);
+}
+
+.screenshot-ui-tooltip {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.screenshot-ui-close-button,
+.screenshot-ui-panel .close-button {
+  color: #353535;
+  background-color: #f0f0f0;
+  border-color: transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.screenshot-ui-close-button:hover,
+.screenshot-ui-panel .close-button:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.screenshot-ui-close-button:active,
+.screenshot-ui-panel .close-button:active {
+  background-color: #d5d5d5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* OSD - volume/brightness popup */
+.osd-window {
+  color: #353535;
+  background-color: #dcdcdc;
+ border-color: rgba(53, 53, 53, 0.02);
+}
